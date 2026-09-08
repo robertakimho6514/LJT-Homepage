@@ -1,13 +1,8 @@
 ---
-permalink: /
+permalink: /about/
 title: "About Me"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
-
-{% include base_path %}
 
 I am **Junteng Liu**, a Ph.D. candidate in Computer Science at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/) and a member of the HKUST NLP Group. I am advised by **Prof. Junxian He**, who also advised me during my undergraduate studies at Shanghai Jiao Tong University (SJTU).
 
@@ -17,9 +12,23 @@ My research focuses on **natural language processing** and **machine learning**.
 - Hallucination in vision-language models
 - LLM truthfulness and interpretability
 
+## Education
+
+- **Ph.D. in Computer Science**, Hong Kong University of Science and Technology, 2024–Present
+- **B.Eng.**, Shanghai Jiao Tong University, 2020–2024  
+  Graduated in June 2024; recipient of the **Zhiyuan Honor Scholarship**.
+
+## Research Experience
+
+- **Research Intern, MINIMAX**, February 2025–Present
+- **Research Intern, Tencent WXG**, June 2024–September 2024  
+  Advised by Zifei Shan.
+- **Research Intern, Shanghai AI Lab**, June 2023–December 2023  
+  Advised by Prof. Yu Cheng.
+
 ## Publications
 
-My name is shown in **bold**. These publications are also mirrored on the template's existing [Publications page]({{ base_path }}/publications/) and available through my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate).
+My name is shown in **bold**. These works are also listed on the dedicated [Publications page]({{ '/publications/' | relative_url }}) and on my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate).
 
 1. **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond.**  
    **Junteng Liu**, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. *arXiv, 2025.*
@@ -38,20 +47,6 @@ My name is shown in **bold**. These publications are also mirrored on the templa
 
 6. **Composing Parameter-Efficient Modules with Arithmetic Operations.**  
    Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He. *NeurIPS 2023.*
-
-## Education
-
-- **Ph.D. in Computer Science**, Hong Kong University of Science and Technology, 2024–Present
-- **B.Eng.**, Shanghai Jiao Tong University, 2020–2024  
-  Graduated in June 2024; recipient of the **Zhiyuan Honor Scholarship**.
-
-## Research Experience
-
-- **Research Intern, MINIMAX**, February 2025–Present
-- **Research Intern, Tencent WXG**, June 2024–September 2024  
-  Advised by Zifei Shan.
-- **Research Intern, Shanghai AI Lab**, June 2023–December 2023  
-  Advised by Prof. Yu Cheng.
 
 ## Research Skills
 
